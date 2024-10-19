@@ -622,5 +622,58 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "adgen_local": {
+    "file_name": "AdvertiseGen/train.json",
+    "columns": {
+      "prompt": "content",
+      "response": "summary"
+    }
+  },
+  "dolly": {
+    "file_name": "dolly/databricks-dolly-15k.jsonl",
+    "columns":{
+      "prompt": "instruction",
+      "query": "context",
+      "response": "response",
+      "system": "category"
+    }
+  },
+  "sorted_std": {
+    "file_name": "dolly/strategy2/sorted_by_std.jsonl",
+    "columns":{
+      "prompt": "instruction",
+      "query": "context",
+      "response": "response",
+      "system": "category"
+    }
+  },
+  "sorted_std_desc": {
+    "file_name": "dolly/strategy2/sorted_by_std_desc.jsonl",
+    "columns":{
+      "prompt": "instruction",
+      "query": "context",
+      "response": "response",
+      "system": "category"
+    }
+  },
+  "dolly_bo5_no4k": {
+    "file_name": "dolly/Bo5/dolly_no_4k.jsonl",
+    "columns":{
+      "prompt": "instruction",
+      "query": "context",
+      "response": "response",
+      "system": "category"
+    }
+  },
+  "dolly_bo5_no10k": {
+    "file_name": "dolly/Bo5/dolly_no_10k.jsonl",
+    "columns":{
+      "prompt": "instruction",
+      "query": "context",
+      "response": "response",
+      "system": "category"
+    }
   }
+
 }
